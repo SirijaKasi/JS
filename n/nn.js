@@ -40,7 +40,9 @@ function fibonacci() {
   c = A + B;
   while (c <= 10) {
     document.write(c);
-    c++;
+    A = B;
+    B = A;
+    c = A + B;
   }
 }
 fibonacci();
