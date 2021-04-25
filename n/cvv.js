@@ -1,4 +1,4 @@
- cool();
-                function cool(){
-                document.write("welcome!!......");
-                           }
+cool();
+function cool() {
+  document.write("welcome!!......");
+}
