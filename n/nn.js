@@ -34,15 +34,15 @@ function forloop() {
 }
 forloop();
 
-function fibonacci() {
-  let A = 0;
-  B = 1;
-  c = A + B;
-  while (c <= 10) {
-    document.write(c);
-    A = B;
-    B = A;
-    c = A + B;
-  }
-}
-fibonacci();
+// function fibonacci() {
+//   let A = 0;
+//   B = 1;
+//   c = A + B;
+//   while (c <= 10) {
+//     document.write(c);
+//     A = B;
+//     B = A;
+//     c = A + B;
+//   }
+// }
+// fibonacci();
