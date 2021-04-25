@@ -27,4 +27,20 @@ function number() {
 }
 number();
 
-function fibonocci() {}
+function forloop() {
+  for (let a = 0; a <= 3; a++) {
+    document.write("<br/>", "enter");
+  }
+}
+forloop();
+
+function fibonacci() {
+  let A = 0;
+  B = 1;
+  c = A + B;
+  while (c <= 10) {
+    document.write(c);
+    c++;
+  }
+}
+fibonacci();
