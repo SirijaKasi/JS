@@ -54,50 +54,30 @@ function ArrayNum() {
 }
 ArrayNum();
 
-function arrayString() {
-  let array = ["aaa", "hhh", "ddd", "yyy", "ccc", "zzz"];
-  c = array.sort();
-  document.write(c, "<br/>");
-}
-arrayString();
+// function arrayString() {
+//   let array = ["aaa", "hhh", "ddd", "yyy", "ccc", "zzz"];
+//   c = array.sort();
+//   document.write(c, "<br/>");
+// }
+// arrayString();
 
-function ArrayObject() {
-  let names = { fname: "AA", score: 80, lname: "zz", grade: "c" };
+// function ArrayObject() {
+//   let names = { fname: "AA", score: 80, lname: "zz", grade: "c" };
 
-  document.write(names.fname, names.lname);
-}
-ArrayObject();
+//   document.write(names.fname, names.lname);
+// }
+// ArrayObject();
 
-function popMethod() {
-  let fruits = ["apple", "banana", "grapes", "custurd Apple"];
-  bb = fruits[0] = "kiwi";
-  document.write(fruits);
-} //bb returns popped element i.e, last element of an array
-//pop() - deletes last element of an array
-// shift() - deleted first element of an array
-//unshift() - adds the first element to an array
+// function popMethod() {
+//   let fruits = ["apple", "banana", "grapes", "custurd Apple"];
+//   bb = fruits[0] = "kiwi";
+//   document.write(fruits);
+// } //bb returns popped element i.e, last element of an array
+// //pop() - deletes last element of an array
+// // shift() - deleted first element of an array
+// //unshift() - adds the first element to an array
 
-popMethod();
-
-// function main(){
-// let people=[{id=10,designation="JS",subject="css"},
-// {id=11,designation="pp",subject="AJS"}];
-
-// function comparision(a,b){
-//   let A =a.people.toUpperCase();
-//   let B=b.people.toUpperCase();
-
-//   let comparision=0;
-//   if(A>B){
-//     comparision=1;
-//   }
-//   else if(A<B){
-//     comparision=-1;
-//   }
-//   return comparision;
-// }document.write(comparision);
-// comparision();
-// }main();
+// popMethod();
 
 function getTime() {
   let today = new Date();
@@ -111,7 +91,17 @@ function getTime() {
 getTime();
 
 function stringObj() {
-  var x = new string("lucky");
-  document.write(x.charAt(1));
+  var x = new String("Lucky HOme");
+  // document.write(x.charAt(3)); //character at the given location
+  // document.write(x.indexOf("u")); // location of the given character
+  // document.write(x.toUpperCase()); //turns the entire string into UPPERCASE
+  // document.write(x.toLowerCase()); //turns the entire string into lowercase
+  document.write(x.slice(2, 8)); //slice is used to cut the part ratherthan the specified allocation
 }
 stringObj();
+
+function mathObj() {
+  var x = 9.22;
+  document.write(Math.ceil(x)); //add +1 to the decimal values i.e, 89.76676 prints as 90
+}
+mathObj();
