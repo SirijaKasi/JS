@@ -98,3 +98,20 @@ popMethod();
 // }document.write(comparision);
 // comparision();
 // }main();
+
+function getTime() {
+  let today = new Date();
+  var h = today.getHours();
+  m = today.getMinutes();
+  s = today.getSeconds();
+  setInterval("getTime()", 1000);
+  // document.write(h + ":" + m + ":" + s); // prints entire time repeatedly for 1000 millisecs
+  document.getElementById("demo").innerHTML = h + ":" + m + ":" + s; //now the time prints at once but changes accordingly
+}
+getTime();
+
+function stringObj() {
+  var x = new string("lucky");
+  document.write(x.charAt(1));
+}
+stringObj();
