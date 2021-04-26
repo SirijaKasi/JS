@@ -67,3 +67,23 @@ function ArrayObject() {
   document.write(names.fname);
 }
 ArrayObject();
+
+// function main(){
+// let people=[{id=10,designation="JS",subject="css"},
+// {id=11,designation="pp",subject="AJS"}];
+
+// function comparision(a,b){
+//   let A =a.people.toUpperCase();
+//   let B=b.people.toUpperCase();
+
+//   let comparision=0;
+//   if(A>B){
+//     comparision=1;
+//   }
+//   else if(A<B){
+//     comparision=-1;
+//   }
+//   return comparision;
+// }document.write(comparision);
+// comparision();
+// }main();
