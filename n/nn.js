@@ -29,7 +29,7 @@ number();
 
 function forloop() {
   for (let a = 0; a <= 3; a++) {
-    document.write("<br/>", "enter");
+    document.write("<br/>", "enter", "<br/>");
   }
 }
 forloop();
@@ -46,3 +46,24 @@ forloop();
 //   }
 // }
 // fibonacci();
+
+function ArrayNum() {
+  let Array = [2, 50, 1, 36, 6];
+  c = Array.sort((a, b) => a - b);
+  document.write(c, "<br/>");
+}
+ArrayNum();
+
+function arrayString() {
+  let array = ["aaa", "hhh", "ddd", "yyy", "ccc", "zzz"];
+  c = array.sort();
+  document.write(c, "<br/>");
+}
+arrayString();
+
+function ArrayObject() {
+  let names = { fname: "AA", score: 80, lname: "zz", grade: "c" };
+
+  document.write(names.fname);
+}
+ArrayObject();
