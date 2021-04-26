@@ -11,5 +11,12 @@ function cool() {
       document.write("b grade");
     };
 }
-
 cool();
+
+
+
+function BrowserOM() {
+  var x = promt("enter name");
+  document.write(x); // prints the data on the webpage
+}
+BrowserOM();
