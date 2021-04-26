@@ -70,10 +70,15 @@ ArrayObject();
 
 function popMethod() {
   let fruits = ["apple", "banana", "grapes", "custurd Apple"];
-  bb = fruits.pop();
+  bb = fruits[0] = "kiwi";
   document.write(fruits);
-}
+} //bb returns popped element i.e, last element of an array
+//pop() - deletes last element of an array
+// shift() - deleted first element of an array
+//unshift() - adds the first element to an array
+
 popMethod();
+
 // function main(){
 // let people=[{id=10,designation="JS",subject="css"},
 // {id=11,designation="pp",subject="AJS"}];
