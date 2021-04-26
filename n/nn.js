@@ -105,3 +105,9 @@ function mathObj() {
   document.write(Math.ceil(x)); //add +1 to the decimal values i.e, 89.76676 prints as 90
 }
 mathObj();
+
+function BrowserOM() {
+  var x = promt("enter name");
+  document.write(x); // prints the data on the webpage
+}
+BrowserOM();
