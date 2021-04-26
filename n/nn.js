@@ -64,10 +64,16 @@ arrayString();
 function ArrayObject() {
   let names = { fname: "AA", score: 80, lname: "zz", grade: "c" };
 
-  document.write(names.fname);
+  document.write(names.fname, names.lname);
 }
 ArrayObject();
 
+function popMethod() {
+  let fruits = ["apple", "banana", "grapes", "custurd Apple"];
+  bb = fruits.pop();
+  document.write(fruits);
+}
+popMethod();
 // function main(){
 // let people=[{id=10,designation="JS",subject="css"},
 // {id=11,designation="pp",subject="AJS"}];
