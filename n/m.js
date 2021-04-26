@@ -13,10 +13,8 @@ function cool() {
 }
 cool();
 
-
-
 function BrowserOM() {
-  var x = promt("enter name");
+  var x = prompt("enter name");
   document.write(x); // prints the data on the webpage
 }
 BrowserOM();
